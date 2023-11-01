@@ -1,0 +1,52 @@
+
+
+## this Project involves the analysis of tourism data to extract insights and trends .the dataset includes infomration on various tourism related metrics over diffrent quarters.
+
+##tables of Contents 
+-[Dataset]
+-Project Structure
+-Requirements
+-Queries
+
+
+## Dataset
+The dataset contains information about tourism commodities, including accommodation, transportation, and other related metrics. The data is organized by quarters.
+
+
+##Supply of tourism commodities, constant prices (x 1,000,000) 1						
+Frequency: Quarterly						
+Table: 36-10-0231-01 (formerly CANSIM 387-0002)						
+Release date: 2023-09-28						
+Geography: Canada
+
+
+
+##Project Structure
+- data : contains the dataset files tourism_data.csv
+-scripts: SQL scripts for data analysis.
+-readme: Project overview and instructions
+
+
+
+## Requirements
+- PostgreSQL database
+
+## Setup and Execution
+1. Import the dataset into your PostgreSQL database.
+2. Execute the SQL scripts in the `scripts/` directory using pgAdmin or your preferred SQL client.
+
+
+
+
+#### Queries
+-Identify Trends in Passenger Air Transport Over the Years
+-Calculate the Average Vehicle Rental Over Time
+-Identify Trends in Vehicle Repairs and Parts Over the Years
+-Calculate the Percentage Change in Vehicle Rental from Q1 2015 to Q1 2016
+-Calculate the Cumulative Sum of Accommodation Expenditures Over Time
+
+
+
+
+## Contributing
+Contributions are welcome! Fork the repository and submit a pull request with your enhancements.
